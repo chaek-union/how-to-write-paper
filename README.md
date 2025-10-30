@@ -1,6 +1,6 @@
 # 나의 첫번째 논문 쓰기
 
-**저자**: 안준용 (고려대학교 바이오시스템의과학부)
+**저자**: [안준용 (고려대학교 바이오시스템의과학부)](https://joonanlab.github.io/team/)
 
 *Last Update: 2025년 10월 30일*
 
@@ -16,7 +16,7 @@
 
 - An Lab의 대학원 신입생들, 인턴 학생들
 - 논문 작성이 막막한 유전체 분야의 연구자
-- 학생들의 논문 쓰기를 지도하는 지도교수나 선배 연구자
+- 학생들의 논문 쓰기를 지도하는 지도교수나 연구자
 
 ## 주의사항
 
@@ -37,4 +37,4 @@
 
 
 ## 문의 및 피드백
-이 교재에 대한 문의사항이나 개선 제안은 [GitHub Issues](https://github.com/your-repo-name/issues)에 남겨주세요.
+이 교재에 대한 문의사항이나 개선 제안은 [GitHub Issues](https://github.com/chaek-union/how-to-write-paper)에 남겨주세요.
