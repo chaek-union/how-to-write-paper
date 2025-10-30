@@ -34,6 +34,7 @@
 - [7장. 참고문헌 조사 및 서지 관리](chapters/chapter7.md)
 - [8장. Introduction 쓰기](chapters/chapter8.md)
 - [9장. Discussion과 Conclusion — 당신의 해석](chapters/chapter9.md)
+- [10장. 당신의 첫번째 논문을 위하여](chapters/chapter10.md)
 
 
 ## 문의 및 피드백
