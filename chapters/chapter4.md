@@ -61,10 +61,6 @@ Results에 부적합한 동사 (Methods용):
 - optimized, benchmarked, validated
 - collected, generated, processed
 
-또 다른 학생 논문에서 남긴 코멘트:
-
-> "CWAS-Plus package가 annotation 하는것 같진 않은데요? Annotation 된 데이터를 넣는것 아닌가요? 그러면 이 패키지에서 annotation을 한다고 말하긴 어려울것 같아요. 이 부분은 Input requirement가 되어야 할 것 같아요."
-
 분석 도구의 사용법, parameter 설정, input/output 형식 등은 모두 Methods 섹션에 포함해야 한다.
 
 ## 섹션 구성과 논리적 흐름
