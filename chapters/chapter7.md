@@ -2,11 +2,9 @@
 
 논문은 어벤져스 시리즈와 같다. 각 영화가 독립적인 이야기를 다루지만 결국 하나의 거대한 서사로 연결되듯, 논문도 마찬가지다. 한 연구자가 던진 질문에 다른 연구자가 답하고, 그 답은 또 다른 질문을 낳는다. 누군가의 생각이 다른 누군가의 생각으로 전승되고 이어지며, 때로는 변증적으로 발전해온 지적 대화의 기록이다. 어떤 가설은 검증되고, 어떤 주장은 반박되며, 그 과정에서 지식은 조금씩 정교해진다.
 
-어쩌면 당신이, 우리가 지금 던지려는 질문도 그럴 것이다. 
+어쩌면 당신이, 우리가 지금 던지려는 질문도 그럴 것이다. 그렇기에 논문을 쓰기 전에 가장 먼저 해야 할 일은 "이 대화가 어디에서 시작되었고, 지금 어디까지 왔는가"를 파악하는 것이다. 참고문헌 조사는 단순한 리스트 정리가 아니라, 이 거대한 지적 계보 속에서 내 연구가 어디에 위치하는지 찾아내는 작업이다. 그리고 그것이 바로 서론의 첫 문단과 두 번째 문단을 쓰기 위한 준비가 된다.
 
-그렇기에 논문을 쓰기 전에 가장 먼저 해야 할 일은 "이 대화가 어디에서 시작되었고, 지금 어디까지 왔는가"를 파악하는 것이다. 참고문헌 조사는 단순한 리스트 정리가 아니라, 이 거대한 지적 계보 속에서 내 연구가 어디에 위치하는지 찾아내는 작업이다. 그리고 그것이 바로 서론의 첫 문단과 두 번째 문단을 쓰기 위한 준비가 된다.
-
-이 장에서는 참고문헌 조사와 서지 관리를 하나의 연구 과정으로 정리한다. 우리 연구실에서 사용하는 **EndNote** 기반 워크플로를 중심으로 단계별로 설명한다. 프로젝트별로 별도의 라이브러리 파일을 만들어 관리하는 방식을 사용하며, 초보자도 쉽게 따라 할 수 있도록 실제 화면 기준으로 구성한다.
+이 장에서는 참고문헌 조사와 서지 관리를 하나의 연구 과정으로 정리한다. 프로젝트별로 별도의 라이브러리 파일을 만들어 관리하는 방식을 사용하며, 초보자도 쉽게 따라 할 수 있도록 실제 화면 기준으로 구성한다.
 
 ---
 
@@ -24,10 +22,10 @@
 
 최근 자폐 스펙트럼 장애(ASD) 유전학 분야의 두 리뷰 논문을 예로 들어보자:
 
-1. **"Genomics, convergent neuroscience and progress in understanding autism spectrum disorder"** (Nature Reviews Neuroscience, 2023)
-2. **"Advancing precision diagnosis in autism: Insights from large-scale genomic studies"** (Molecular Psychiatry, 2025)
+1. **"Genomics, convergent neuroscience and progress in understanding autism spectrum disorder"** ([Willsey et al., Nature Rev Neurosci, 2022](https://pmc.ncbi.nlm.nih.gov/articles/PMC10693992/))
+2. **"Advancing precision diagnosis in autism: Insights from large-scale genomic studies"** ([Kim et al., Mol Cells. , 2025](https://pmc.ncbi.nlm.nih.gov/articles/PMC12275934/))
 
-이 두 리뷰는 5년 차이로 발표되었지만, 둘 다 **Satterstrom et al., 2020** 논문을 핵심 연구로 반복해서 인용한다.
+이 두 리뷰는 3년 차이로 발표되었지만, 둘 다 **Satterstrom et al., 2020** 논문을 핵심 연구로 반복해서 인용한다.
 
 **첫 번째 리뷰에서 Satterstrom 2020이 언급되는 방식:**
 
