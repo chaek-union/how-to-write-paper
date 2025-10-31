@@ -82,7 +82,7 @@ ggsave("Figure1_draft.pdf", fig1_draft, width = 10, height = 8)
 
 Kim et al. 2025 논문의 Figure 1을 보자:
 
-![Figure 1](../images/Kim2025_GenomeMed_Fig1.png)
+![Figure 1](../assets/Kim2025_GenomeMed_Fig1.png)
 
 이 Figure는 "가족 내 표현형 편차를 통해 de novo variant의 효과를 더 정확하게 측정할 수 있다"는 하나의 메시지를 담고 있다:
 
@@ -103,11 +103,11 @@ Kim et al. 2025 논문의 Figure 1을 보자:
 
 나는 논문을 쓸 때, 종종 손으로 그림을 그려서 Figure에 들어갈 구성요소를 구상한다. 
 
-![손으로 Figure 그리기](../images/figure-sketch1.png)
+![손으로 Figure 그리기](../assets/figure-sketch1.png)
 
 낙서와 같은 이런 그림은 내용을 전개할 상상을 하게 만든다. 
 
-![손으로 Figure 그리기](../images/figure-sketch2.png)
+![손으로 Figure 그리기](../assets/figure-sketch2.png)
 
 MBTI가 극 N은 상상을 멈출 수 없어.. 
 
@@ -195,7 +195,7 @@ ggsave("Figure1_WFSD.pdf", fig1, width = 8, height = 7, dpi = 300)
 
 믿거나 말거나, 아래는 우리가 사용한 작업 폴더인데, 여기엔 수천개의 plot이 들어있다. 손으로 작업할 수 없다. 컴퓨터가 하게 하라. 
 
-![Many May plots](../images/code-for-plots.png)
+![Many May plots](../assets/code-for-plots.png)
 
 
 ---
