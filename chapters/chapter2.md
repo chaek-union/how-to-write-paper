@@ -86,11 +86,9 @@ paper_프로젝트명/
   └── (나중에 만들 폴더: Data/)
 ```
 
-각 폴더의 역할을 자세히 알아보자.
+이제는 각 폴더의 역할을 자세히 알아보자.
 
----
-
-## Figures 폴더
+### Figures 폴더
 
 이 폴더는 논문 본문에 들어갈 Figure들의 최신 버전을 보관하는 곳이다. 중요한 것은, 이 폴더는 "논문에 들어갈 현재 최신 버전의 Figure"를 저장하는 곳이라는 점이다. 분석 과정에서 나온 수많은 그래프들을 저장하는 곳이 **아니다**. 예를 들어, 10가지 다른 방법으로 데이터를 시각화해봤다면, 그 10개의 그래프는 작업 폴더에 있어야 한다. 그 중에서 "이게 논문에 들어갈 거야!"라고 결정한 하나만 이 Figures 폴더에 넣는 것이다. 파일 이름은 `Figure1_v1.pdf`, `Figure2_v1.pdf`, `Figure3_v1.pdf` 형식으로 버전 번호(`v1`, `v2`, `v3`...)를 붙여서 관리한다. 수정할 때마다 버전을 올리면, 나중에 "아, 이전 버전이 더 나았는데..."라고 생각될 때 돌아갈 수 있다.
 
@@ -108,13 +106,9 @@ Figures/
 
 현재 최신 버전은 Figures 폴더 바로 아래에 두고, 이전 버전들은 `old` 서브폴더에 보관한다. 이렇게 하면 폴더를 열었을 때 현재 사용 중인 Figure들만 바로 볼 수 있어서 명확하다. 누군가 "지금 시점에서 최신 버전의 Figure들을 달라"고 하면, Figures 폴더의 최상위에 있는 파일들을 주면 된다.
 
-### Figures는 Scripts 폴더의 코드로 재현 가능해야 함
-
 Figures 폴더에 들어가는 모든 Figure는 **Scripts 폴더에 저장된 코드를 실행하면 누구든지 똑같이 그릴 수 있어야 한다**. 이것이 재현 가능한 연구(reproducible research)의 핵심이다. 예를 들어 `Figures/Figure1_v3.pdf`는 `Scripts/Figure1.R`을 실행하면 만들어져야 하고, `Figures/Figure2_v2.pdf`는 `Scripts/Figure2.R`을 실행하면 만들어져야 한다. 이렇게 하면 리뷰어가 "Figure 1이 어떻게 만들어졌나요?"라고 물으면 코드를 보여줄 수 있고, 나중에 Figure를 수정해야 할 때 코드를 조금만 고치면 된다. 공동연구자가 Figure를 재생성할 수 있으며, 논문 출판 후 다른 연구자들이 방법론을 정확히 이해할 수 있다. Cell 이나 Nature 계열의 저널에서는 Code Reproducibility를 확인하기 위하여, 이와 같은 script 작성이 필수적이다. 
 
----
-
-## Supplementary_Figures 폴더
+### Supplementary_Figures 폴더
 
 본문에는 들어가지 않지만, Supplementary Information에 들어갈 Figure들을 보관한다. 본문에 들어가기엔 너무 자세하거나, 추가적인 분석 결과들이 여기에 들어간다. Supplementary Figure도 Main Figure와 **동일한 수준의 퀄리티**로 작성되어야 한다. "Supplementary"라고 해서 대충 만들면 안 된다. 리뷰어들은 Supplementary도 꼼꼼히 본다. Main Figure에는 논문의 핵심 메시지를 전달하는 Figure, 독자가 반드시 봐야 하는 결과, 논문의 스토리 전개에 필수적인 Figure가 들어간다. 반면 Supplementary Figure에는 Main Figure를 뒷받침하는 추가 증거, 통계적 검증 결과(예: QC plots, validation plots), 대체 분석 방법의 결과, 세부적인 기술적 디테일이 들어간다. 예를 들어 Main Figure 2가 "우리가 발견한 새로운 유전자 변이"라면, Supplementary Figure S2는 "해당 변이의 검증 실험 결과"가 될 수 있다. Supplementary Figure도 `Scripts/FigureS1.R` 같은 코드로 재현 가능해야 한다.
 
@@ -127,11 +121,7 @@ Supplementary_Figures/
       └── FigureS2_v1.pdf
 ```
 
-
-
----
-
-## Supplementary_Tables 폴더
+### Supplementary_Tables 폴더
 
 본문에는 들어가지 않지만, Supplementary Information에 들어갈 Table들을 보관한다. 우리가 작성하는 주제의 논문들에서는 Table을 Main manuscript에 거의 넣지 않고, **거의 모든 Table을 Supplementary에 정리**한다. Table은 공간을 많이 차지하고, Main manuscript는 Figure 중심으로 스토리를 전개하는 것이 더 효과적이며, 상세한 데이터는 Supplementary에서 제공하는 것이 일반적이기 때문이다. Supplementary Table의 전형적인 구성을 살펴보면, **Table S1**은 샘플 메타데이터로 거의 모든 논문에 필수다. 보통 여러 개의 Sheet로 구성되는데, Sheet 1에는 각 Sheet에 대한 설명을, Sheet 2 (Table S1A)에는 샘플 기본 정보(나이, 성별, 진단 등)를, Sheet 3 (Table S1B)에는 샘플 QC 정보(시퀀싱 depth, mapping rate 등)를, Sheet 4 (Table S1C)에는 필요시 추가 메타데이터를 넣는다. **Table S2**에는 주요 분석 결과(예: 통계적으로 유의한 유전자 목록)를, **Table S3**에는 추가 분석 결과(예: pathway enrichment 결과)를 넣는다. Supplementary Table도 `Scripts/TableS1.R` 같은 코드로 자동 생성되어야 한다.
 
@@ -144,9 +134,7 @@ Supplementary_Tables/
       └── TableS2_v1.xlsx
 ```
 
----
-
-## Scripts 폴더
+### Scripts 폴더
 
 이 폴더는 Figure와 Table을 만드는 코드를 저장하는 곳으로, **논문의 재현성(reproducibility)을 보장하는 핵심 폴더**다. 많은 저널들이 요즘 재현성을 강조하면서 분석 코드 제출을 요구하며, 논문 심사에서도 매우 중요하게 다뤄진다. 주의할 점은, 여기에는 **모든 분석 코드**를 넣는 것이 아니라는 것이다. 실제 작업 폴더에서 데이터를 분석한 코드는 거기에 그대로 두면 된다. Scripts 폴더에 들어가는 코드는 Figure를 조합하고 레이아웃을 만드는 코드, Table을 최종 포맷으로 정리하고 엑셀로 저장하는 코드, 여러 분석 결과를 모아서 하나의 Figure/Table로 만드는 코드다.
 
@@ -162,7 +150,7 @@ Scripts/
   └── utils.R            # 공통으로 사용하는 함수들
 ```
 
-### 언제부터 Scripts 폴더를 사용하나?
+#### 언제부터 Scripts 폴더를 사용하나?
 
 답은 논문 작성 초기부터다. 많은 학생들이 "논문이 거의 다 끝나면 코드를 정리해야지"라고 생각하는데, 이것은 큰 실수다. Scripts 폴더의 코드는 **처음부터 작성하고 계속 업데이트**해야 한다. Figure를 수정할 때마다 코드만 조금 고치면 되고, 리뷰어가 수정을 요구하면 코드를 실행만 하면 되며, 나중에 "이 Figure를 어떻게 만들었더라?" 하고 헤맬 일이 없기 때문이다. 논문을 제출할 때는 Scripts 폴더의 코드를 GitHub에 업로드하거나 Zenodo에 업로드하여 DOI를 받는다. 그리고 논문의 "Data and Code Availability" 섹션에 다음과 같이 적는다:
 
@@ -170,7 +158,7 @@ Scripts/
 
 이것은 논문 심사에서 매우 중요한 요소다. 리뷰어들은 재현 가능한 연구를 선호하며, 코드가 잘 정리되어 있으면 긍정적인 평가를 받는다.
 
-### Scripts 예시 1: Multi-panel Figure 만들기 (cowplot 사용)
+#### Scripts 예시 1: Multi-panel Figure 만들기 (cowplot 사용)
 
 논문의 Figure는 보통 여러 개의 panel을 조합한 multi-panel plot이다. R의 `cowplot` 패키지를 사용하면 이를 쉽게 만들 수 있다. 다음은 Figure 1을 만드는 코드 예시다 (`Scripts/Figure1.R`):
 
@@ -224,7 +212,7 @@ ggsave("../Figures/Figure1_v1.pdf",
 
 이 코드를 실행하면 `Figures/Figure1_v1.pdf`가 생성된다. 나중에 Figure를 수정하고 싶으면 코드를 고치고 다시 실행하면 된다.
 
-### Scripts 예시 2: Table S1 만들기
+#### Scripts 예시 2: Table S1 만들기
 
 Table S1 (샘플 메타데이터)는 거의 모든 논문에 필수다. 이것도 코드로 자동 생성해야 한다. 다음은 Table S1을 만드는 코드 예시다 (`Scripts/TableS1.R`):
 
@@ -280,7 +268,7 @@ saveWorkbook(wb, "../Supplementary_Tables/TableS1_v1.xlsx", overwrite = TRUE)
 
 ---
 
-## 원고 파일 만들기
+## 원고 MS 워드 파일 만들기
 
 논문 폴더를 만들었다면, 이제 실제로 글을 쓸 원고 파일을 만들어야 한다.
 
@@ -540,7 +528,7 @@ paper_ASD_WGS_2024/
 
 ---
 
-## 학생들이 하는 흔한 실수들
+## 이 부분에서 학생들이 하는 흔한 실수들
 
 ### 파일 관리 실수
 
@@ -568,7 +556,7 @@ paper_ASD_WGS_2024/
 
 ---
 
-## 자주 묻는 질문
+## 학생들이 자주 묻는 질문
 
 ### 언제 논문 폴더를 만들어야 하나?
 
