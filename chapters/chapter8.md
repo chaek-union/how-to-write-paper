@@ -298,7 +298,9 @@ Abstract는 **논문 전체의 독립적인 요약**이다. 독자가 Abstract�
 - Abstract: "45 loci... associated with symptom severity (β = 0.42)"
 - Introduction: "rare variants... are significantly enriched... and correlate with clinical severity"
 
-### 흔한 실수와 해결법
+---
+
+## 흔한 실수와 해결법
 
 **실수 1: Introduction을 Abstract처럼 쓰기**
 
@@ -329,7 +331,9 @@ Abstract는 **논문 전체의 독립적인 요약**이다. 독자가 Abstract�
 - 혹은 Introduction 전체를 완성한 후, Abstract를 독립적으로 다시 쓴다
 - 두 섹션을 작성한 후, 의도적으로 **다른 단어**를 사용해 같은 내용을 표현한다
 
-### 실전 연습
+---
+
+## 실전 연습
 
 **연습 1: 중복 체크**
 
@@ -347,7 +351,9 @@ Introduction 마지막 문단과 Abstract를 나란히 놓고, 다음을 확인�
 
 각 섹션을 읽고 위 질문에 "그렇다"고 답할 수 있는지 확인하라.
 
-### 마무리: 두 섹션의 관계
+---
+
+## 마무리: 두 섹션의 관계
 
 Abstract와 Introduction 마지막 문단은 **같은 연구를 다른 높이에서 바라보는 것**이다. Abstract는 비행기에서 내려다본 전체 지형이고, Introduction 마지막 문단은 그 지형 속으로 걸어 들어가는 입구다.
 

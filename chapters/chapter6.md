@@ -166,7 +166,7 @@ analyses were conducted in R v4.3.0 and PLINK v2.0.
 
 ---
 
-## 기능적 및 경로 분석(Gene Set Enrichment)
+## Gene Set Enrichment에 대한 작성 요령
 
 유전자 목록을 만들고 functional enrichment를 수행했다면, 이 과정도 Methods에 상세히 기술해야 한다.
 

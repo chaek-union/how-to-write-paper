@@ -2,13 +2,13 @@
 
 하나의 Result 섹션 안에서, 심지어 한 문장 안에서 어떻게 효과적으로 쓸 것인가에 대해 알아보자. 좋은 구조를 가진 Results도 문장이 명확하지 않으면 독자에게 전달되지 않는다. 이 장에서는 실제 우리 학생들이 작성한 논문에 남겼던 코멘트를 바탕으로, 문장 레벨의 작성 기술을 다룬다.
 
+---
+
 ## Results 섹션의 문단 구조 — 유기적 연결
 
 Results의 하나의 섹션을 작성할 때, 보통 3-4개의 문단을 적는다. 그 문단들은 서로 유기적으로 연결된다. 
 
 우리가 작성한 뇌발달 싱글셀 논문 [Kim et al. 2024, Exp Mol Med](https://pmc.ncbi.nlm.nih.gov/articles/PMC11541755/)의 "Cellular landscape of neurodevelopmental disorder genes in early neuronal lineages" 섹션을 예로 살펴보자.
-
-## 문단 간 논리적 흐름 분석
 
 **문단 1: 세포 특이적 enrichment 패턴**
 ```
@@ -62,6 +62,8 @@ neurons...
 - 문단 4: "**Like lineage 1**, lineages 2 and 3 presented..."
 
 "Further", "Like" 같은 연결어가 없어도, 논리적 흐름이 자연스럽게 이어진다. 각 문단이 이전 문단에서 던진 질문에 답하거나, 더 깊은 분석을 제공하는 구조다.
+
+---
 
 ## AI를 활용하여 Results 섹션 작성하기
 
@@ -149,6 +151,7 @@ associated with NDDs.
 
 또 한가지 주의 할 점은, AI의 라이팅은 자주 "과장"하거나 "모호"하게 문장을 작성한다. 그럴듯하게 보이는 작업물을 전달한다. 그래서 프롬프트를 입력할 때 가급적 정량적인 지표, 정확한 구성요소들을 넣어야 한다 (특히 Results 파트에서). 또한 나온 결과물을 읽어보고, 모호한 언어로 작성했는지를 점검해야 한다. 혹은 나온 결과물을 다른 AI에게 넣어서, "이거 쟤네가 한건데, 혹시 모호하게 쓰여진 문장이나, 그럴듯하게 보이는 문장이 있어? 구체적인 정보를 얻을수 있어? 혹시 그런 부분이 있으면 지적해봐" 라고 물어볼수도 있다. 
 
+---
 
 ## 문장 작성할 때 우리가 자주하던 실수들
 
@@ -397,7 +400,6 @@ delay, and epilepsy, are predominantly expressed in neuronal cell types.
 De novo variants in autism have been shown to disrupt neuronal genes... [5]
 ```
 
-
 ### 인용(Citation)의 적절한 사용
 
 **Previous studies 언급 시 반드시 인용**
@@ -460,8 +462,9 @@ Consistent with previous reports [23], we observed enrichment in synaptic genes.
 
 **Kim et al., 2024는 괄호 스타일 [숫자]를 일관되게 사용한다.**
 
+---
 
-## Results 문장을 적을때 꼭 챙겨야 할 것
+## Results 문장을 작성할 때, 확인해야 하는 것
 
 ### 통계값은 필수
 

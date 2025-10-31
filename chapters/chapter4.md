@@ -2,6 +2,8 @@
 
 Results 섹션을 쓸 때 가장 먼저 해야 할 일은 무엇일까? 많은 학생들이 첫 번째 분석 결과부터 순서대로 적기 시작한다. 하지만 좋은 Results는 **전체 구조를 먼저 설계**하고 시작해야 한다. 이번 장에서는 Results 섹션 전체의 뼈대를 어떻게 짜야 하는지, 각 subsection을 어떻게 배치하고 연결해야 하는지를 다룬다. 문장 레벨의 작성 기술은 다음 장에서 다룰 것이고, 여기서는 큰 그림에 집중한다.
 
+---
+
 ## Results의 핵심 원칙: 데이터가 주인공이다
 
 **Results vs Methods vs Discussion**
@@ -63,7 +65,9 @@ Results에 부적합한 동사 (Methods용):
 
 분석 도구의 사용법, parameter 설정, input/output 형식 등은 모두 Methods 섹션에 포함해야 한다.
 
-## 섹션 구성과 논리적 흐름
+---
+
+## 섹션들을 구성하기
 
 **섹션 제목은 발견을 담아야 한다**
 
@@ -163,6 +167,8 @@ to target not only cancer cells but also the surrounding microenvironment.
 
 독자 반응: "1번에서 5개 서브타입 소개, 2번에서 특히 예후가 나쁜 서브타입 집중 분석, 3번에서 서브타입별 세포 특성, 4번에서 증식성 서브타입의 WGD 특징, 5-6번에서 면역 환경 분석. 논리적이네!"
 
+---
+
 ## 문단 구성의 원칙
 
 ### 문단 한개는 하나의 완결된 아이디어
@@ -224,6 +230,8 @@ Paragraph 5: We evaluated the clinical significance of Subtype 4 according to th
 ```
 
 각 문단의 첫 문장만 읽어도 "Subtype 4의 분자적 특징 → SLK 마커 → LRRFIP1 마커 → 신호전달 경로 → 생존율 분석" 순서로 분석이 진행되었음을 알 수 있다.
+
+---
 
 ## 용어 사용의 정확성과 일관성
 
@@ -328,6 +336,7 @@ and molecular pathways.
 
 한번 약어를 정의하면 논문 전체에서 동일하게 사용한다.
 
+---
 
 ## Figure와 Table의 효과적 배치
 
@@ -388,6 +397,8 @@ Results 섹션 6: Fig. 6a-g (Neoantigens)
 Song et al., 2024의 경우:
 - Main Figures (1-6): 서브타입 정의, 예후 분석, 세포 특성, WGD, 면역 환경
 - Supplementary Figures: TMB 분포, 추가 kinase 분석, 검증 코호트 결과
+
+---
 
 ## 저널별 요구사항 확인
 
