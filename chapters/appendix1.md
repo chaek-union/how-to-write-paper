@@ -13,12 +13,14 @@
 먼저 논문을 쇼핑하자. PubMed나 Google Scholar에 들어가서 읽고 싶은 키워드를 넣고 검색한다. 나는 Web of Science (WoS)를 학생들에게 추천한다. 학교 와이파이 혹은 학교 도서관 사이트를 통해 들어가면 접속할 수 있다. WoS에서는 보다 구조적인 검색이 가능하다. 키워드를 넣고 검색하면, 논문이 어디에 출간되었는지, 몇번 인용 (다른 연구에 의해 언급된 것)되었는지 확인할 수 있다. 특히 좋은 저널에 출간된 연구 논문을 선택해야한다. 가능하면 아래 저널에 출간된 논문을 선택하자. 
 
 ```
-Nature, Nature Genetics, Nature Neuroscience, Nature Communications, Nature Medicine, Nature Machine Intelligence
-Cell, American Journal of Human Genetics, Neuron, Cell Genomics  
-Science, Science Translational Medicine  
-Genome Biology, Genome Medicine  
+Nature, Nature Genetics, Nature Neuroscience, 
+Nature Medicine, Nature Communications, Nature Machine Intelligence
+Cell, Neuron, Cell Genomics, Cell Reports Medicine
+Science, Science Translational Medicine, Science Advances
+Genome Biology, Genome Medicine, American Journal of Human Genetics
 JAMA, Lancet  
 Molecular Psychiatry, Biological Psychiatry
+Cancer Discovery, Cancer Research
 
 ```
 
