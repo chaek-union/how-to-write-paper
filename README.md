@@ -1,7 +1,7 @@
 # 나의 첫 논문 쓰기
 
 **저자**: [안준용 (고려대학교 바이오시스템의과학부)](https://joonanlab.github.io/team/)
-*Last Update: 2025년 10월 30일*
+*Last Update: 2025년 11월 2일*
 
 ## 이 책에 대하여
 
