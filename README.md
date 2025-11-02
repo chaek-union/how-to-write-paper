@@ -5,7 +5,7 @@
 *Last Update: 2025년 11월 2일*
 
 <p align="center">
-  <img src="assets/front-cover.png" width="400">
+  <img src="assets/front-cover.png" width="600">
 </p>
 
 ## 이 책에 대하여
