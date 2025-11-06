@@ -38,6 +38,7 @@
 - [9장. Discussion과 Conclusion — 당신의 해석](chapters/chapter9.md)
 - [10장. 당신의 첫 논문을 위하여](chapters/chapter10.md)
 - [부록1. Daily Paper Summary Program — 요약하고 읽기](chapters/appendix1.md)
+- [부록2. 논문을 처음 읽는 학생들을 위한 가이드](chapters/appendix2.md)
 
 ## 문의 및 피드백
 
