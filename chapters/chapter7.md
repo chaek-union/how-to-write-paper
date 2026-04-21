@@ -17,7 +17,7 @@
 최근 자폐 스펙트럼 장애(ASD) 유전학 분야의 두 리뷰 논문을 예로 들어보자:
 
 1. **"Genomics, convergent neuroscience and progress in understanding autism spectrum disorder"** ([Willsey et al., Nature Rev Neurosci, 2022](https://pmc.ncbi.nlm.nih.gov/articles/PMC10693992/))
-2. **"Advancing precision diagnosis in autism: Insights from large-scale genomic studies"** ([Kim et al., Mol Cells. , 2025](https://pmc.ncbi.nlm.nih.gov/articles/PMC12275934/))
+2. **"Advancing precision diagnosis in autism: Insights from large-scale genomic studies"** ([Kim et al., Mol Cells, 2025](https://pmc.ncbi.nlm.nih.gov/articles/PMC12275934/))
 
 이 두 리뷰는 3년 차이로 발표되었지만, 둘 다 **Satterstrom et al., 2020** 논문을 핵심 연구로 반복해서 인용한다.
 
@@ -54,7 +54,7 @@
 1. **공통 인식**: 두 리뷰 모두 Satterstrom 2020을 ASD 유전자 발견의 "이정표"로 간주하며, 102개 유전자 목록과 통계적 기준을 강조한다.
 
 2. **맥락의 차이**: 
-   - 2023년 리뷰는 이 연구를 "뇌 발달의 시공간적 수렴" 연구의 출발점으로 활용
+   - 2022년 리뷰는 이 연구를 "뇌 발달의 시공간적 수렴" 연구의 출발점으로 활용
    - 2025년 리뷰는 "임상 진단과 치료 개발"을 위한 기초 자료로 활용
 
 3. **연구의 계보**:
@@ -81,7 +81,7 @@ PubMed, Web of Science, Scopus 같은 데이터베이스를 활용한다.
 
 논문 탐색은 하루 이틀에 끝나지 않는다. 한 프로젝트를 진행하는 동안에도 새로운 논문이 나오면 계속 업데이트해야 한다.
 
-**Predatory Journal 논문은 피하라.** MDPI, Frontiers와 같은 일부 출판사의 논문은 동료 심사가 느슨하여 질이 낮은 경우가 많다. 특히 이런 저널들은 기존 연구를 중복적으로 정리한 리뷰 논문이 많아서, 논문 조사에 실질적인 도움이 되지 않는다. 
+**Predatory Journal 논문은 피하라.** 동료 심사가 느슨한 저널에서 발표된 논문은 질이 낮은 경우가 많다. MDPI, Frontiers 같은 대형 오픈 액세스 출판사의 저널 중에도 심사 기준이 엄격하지 않은 경우가 있으니, 인용 전에 해당 저널의 impact factor, 편집진, 심사 과정을 확인하는 것이 좋다. 또한 이런 저널에는 기존 연구를 중복적으로 정리한 리뷰 논문이 많아서, 논문 조사에 실질적인 도움이 되지 않는 경우도 많다. 
 
 고품질 리뷰를 찾으려면 Nature Reviews, Cell, Annual Reviews 시리즈처럼 impact factor가 높고 편집 기준이 엄격한 저널을 우선적으로 찾아야 한다.
 

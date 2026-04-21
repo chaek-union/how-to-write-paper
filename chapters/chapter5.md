@@ -508,9 +508,9 @@ siblings (Fig. 5C; Additional file 8: Table S7).
 저널마다 유효숫자 규정이 다르다. 한 논문 내에서는 일관되게 유지해야 한다.
 
 일반적으로:
-- p-value: 소숫점 2-3자리 (p = 0.001 또는 p = 1.1 × 10−2)
-- effect size나 fold change: 소숫점 1-2자리 (RR = 2.0, fold change = 2.3)
-- 백분율: 정수 또는 소숫점 1자리 (65%, 5.6%)
+- p-value: 소수점 2-3자리 (p = 0.001 또는 p = 1.1 × 10−2)
+- effect size나 fold change: 소수점 1-2자리 (RR = 2.0, fold change = 2.3)
+- 백분율: 정수 또는 소수점 1자리 (65%, 5.6%)
 
 ### 샘플 수 명시
 

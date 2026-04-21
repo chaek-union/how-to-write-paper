@@ -2,7 +2,7 @@
 
 논문을 쓸 때 가장 먼저 해야 할 일은 무엇일까? Introduction을 쓰는 것? 방법론을 정리하는 것? 아니다. **Figure를 그리는 것**이다.
 
-보통 우리는 데이터 분석을 하고 결과가 나오면, 그 즉시 시각화를 한다. 생선된 플롯과 결과를 정리해서 미팅 슬라이드를 만든다. 이 슬라이드에서 Figure에 들어갈 내용을 구성해서, Figure 파일을 작성해본다. 
+보통 우리는 데이터 분석을 하고 결과가 나오면, 그 즉시 시각화를 한다. 생성된 플롯과 결과를 정리해서 미팅 슬라이드를 만든다. 이 슬라이드에서 Figure에 들어갈 내용을 구성해서, Figure 파일을 작성해본다. 
 
 처음 그리는 Figure는 완벽하지 않아도 된다. 오히려 완벽하지 않은 상태에서 Figure를 그려보는 것이 논문 작성의 핵심이다. Figure를 그리는 과정은 단순히 '그림을 만드는 것'이 아니라, **논문의 구조를 설계하고, 논리를 점검하고, 부족한 부분을 발견하는 과정**이다.
 
@@ -224,8 +224,8 @@ ggsave("Figure1_v2_color_revised.pdf", fig1, width = 8, height = 7)
 pA <- pA + coord_cartesian(xlim = c(30, 90), ylim = c(30, 90))
 ggsave("Figure1_v3_axis_adjusted.pdf", fig1, width = 8, height = 7)
 
-# Final version
-ggsave("Figure1_final.pdf", fig1, width = 8, height = 7)
+# Version 4: 최종 정리본
+ggsave("Figure1_v4.pdf", fig1, width = 8, height = 7)
 ```
 
 Figure를 매일 수정하면서, 논문의 논리가 점점 명확해진다. 처음에는 보이지 않던 문제점이 Figure를 통해 드러나고, 그것을 수정하면서 더 나은 스토리를 만들어간다.
