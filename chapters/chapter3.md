@@ -354,3 +354,21 @@ category: ASD-/DD-associated genes.
 **6. 샘플 크기 명시 (중요한 경우)**
    - "n = 50 per group"
    - "Error bars represent SEM from three independent experiments"
+   - 각 조건별 샘플 수(n)를 Figure Legend나 본문에 반드시 명시한다
+   - 반복 실험 횟수와 통계 단위(biological replicate vs. technical replicate)를 구분해 적는다
+
+**7. 저널 가이드라인 확인**
+   - 저널마다 Figure Legend의 길이 제한, 약어 표기, 통계 기호 표기가 다르다
+   - 투고 전에 반드시 해당 저널의 Author Guidelines를 확인한다
+   - 일부 저널은 Figure Legend를 본문과 별도 파일로 제출하도록 요구한다
+
+---
+
+## Figure 작성의 마무리
+
+Figure는 논문의 얼굴이다. 독자는 본문을 읽기 전에 Figure부터 본다. 리뷰어도, 에디터도, 그리고 수년 후 당신의 논문을 찾는 연구자도 마찬가지다. **Figure만 봐도 연구의 이야기가 전달되어야 한다.**
+
+좋은 Figure를 만드는 길은 한 번에 완성되지 않는다. 손으로 먼저 스케치하고, R이나 Python으로 플롯을 그리고, Illustrator로 다듬고, 동료와 지도교수로부터 피드백을 받으며 수십 번 수정한다. 이 과정을 반복하다 보면, 어느 순간 Figure가 스스로 말하기 시작한다. 그때부터는 글이 Figure를 설명하는 것이 아니라, Figure가 글의 논리를 이끄는 단계가 된다.
+
+다음 장부터는 이 Figure들을 중심으로 Results 섹션을 어떻게 써 내려갈지 이야기한다.
+   - "Error bars represent SEM from three independent experiments"

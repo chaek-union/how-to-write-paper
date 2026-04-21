@@ -276,16 +276,17 @@ saveWorkbook(wb, "../Supplementary_Tables/TableS1_v1.xlsx", overwrite = TRUE)
 
 Main manuscript는 세 개의 분리된 워드 파일로 작성한다:
 
-1. Manuscript_[프로젝트명]_Main_v1.docx - Title, Abstract, Introduction, Results, Discussion, References를 포함한다.
-2. Manuscript_[프로젝트명]_Methods_v1.docx - Methods 섹션만 별도로 작성한다. Methods는 보통 매우 길고 기술적이어서, Main manuscript와 분리하는 것이 편리하다.
-3. Supplementary_Information_v1.docx - Supplementary Figure legends, Supplementary Table legends, 추가적인 Methods 등을 포함한다.
+1. Manuscript_[프로젝트명]_Main_v1.0.docx - Title, Abstract, Introduction, Results, Discussion, References를 포함한다.
+2. Manuscript_[프로젝트명]_Methods_v1.0.docx - Methods 섹션만 별도로 작성한다. Methods는 보통 매우 길고 기술적이어서, Main manuscript와 분리하는 것이 편리하다.
+3. Supplementary_Information_v1.0.docx - Supplementary Figure legends, Supplementary Table legends, 추가적인 Methods 등을 포함한다.
+
 왜 세 개로 분리할까? Main manuscript가 너무 길면 편집이 어렵고, Methods는 기술적 디테일이 많아서 분리하는 것이 깔끔하며, 저널 제출 시 보통 Main manuscript와 Supplementary를 별도 파일로 제출하기 때문이다. 예를 들어, `paper_ASD_WGS_2024` 폴더에는 다음과 같은 파일들이 있어야 한다:
 
 ```
 paper_ASD_WGS_2024/
-  ├── Manuscript_ASD_WGS_Main_v1.docx
-  ├── Manuscript_ASD_WGS_Methods_v1.docx
-  ├── Supplementary_Information_v1.docx
+  ├── Manuscript_ASD_WGS_Main_v1.0.docx
+  ├── Manuscript_ASD_WGS_Methods_v1.0.docx
+  ├── Supplementary_Information_v1.0.docx
   └── ...
 ```
 
@@ -293,9 +294,12 @@ paper_ASD_WGS_2024/
 
 원고 파일도 버전 관리를 해야 한다. 파일명에 버전 번호를 붙이는 방식은 다음과 같다:
 
-**기본 버전 형식**: `v1.0`, `v1.1`, `v1.2`, ...
+**기본 버전 형식**: `v1.0`, `v1.1`, `v1.2`, ... (원고 파일용)
 - 첫 번째 숫자(1)는 major version - 큰 변경이 있을 때 올린다
 - 두 번째 숫자(0, 1, 2)는 minor version - 작은 수정이 있을 때 올린다
+- 세 번째 숫자(선택)는 patch version - 공동저자가 회람 중 수정본을 돌려줄 때 사용한다 (예: `v1.0.1_JYA`)
+
+> **참고**: Figure/Table 파일은 더 단순하게 `v1`, `v2`, `v3`처럼 정수 하나만 사용한다 (예: `Figure1_v1.pdf`, `TableS1_v1.xlsx`). 원고처럼 다자간 회람 사이클이 많지 않기 때문이다. 원고(semver 스타일)와 Figure/Table(정수)의 체계를 구분해서 사용하자.
 
 **실제 예시**:
 ```
@@ -478,16 +482,17 @@ Manuscript_Main_v1.1.docx → 공동연구자 A, B에게 공유
 ```
 paper_ASD_WGS_2024/
   │
-  ├── Manuscript_ASD_WGS_Main_v3.docx (← 현재 작업 중)
-  ├── Manuscript_ASD_WGS_Methods_v2.docx (← 현재 작업 중)
-  ├── Supplementary_Information_v1.docx (← 현재 작업 중)
+  ├── Manuscript_ASD_WGS_Main_v2.1.docx (← 현재 작업 중)
+  ├── Manuscript_ASD_WGS_Methods_v1.2.docx (← 현재 작업 중)
+  ├── Supplementary_Information_v1.0.docx (← 현재 작업 중)
   ├── References_ASD_WGS.enl
   ├── References_ASD_WGS.Data/
   │
   ├── old/
-  │   ├── Manuscript_ASD_WGS_Main_v1.docx
-  │   ├── Manuscript_ASD_WGS_Main_v2.docx
-  │   └── Manuscript_ASD_WGS_Methods_v1.docx
+  │   ├── Manuscript_ASD_WGS_Main_v1.0.docx
+  │   ├── Manuscript_ASD_WGS_Main_v1.1.docx
+  │   ├── Manuscript_ASD_WGS_Main_v2.0.docx
+  │   └── Manuscript_ASD_WGS_Methods_v1.0.docx
   │
   ├── Figures/
   │   ├── Figure1_v3.pdf (← 현재 최신)
@@ -534,7 +539,7 @@ paper_ASD_WGS_2024/
 
 **작업 폴더와 논문 폴더를 구분하지 않음**: 논문 폴더에 테스트 코드, 실패한 분석 결과, 중간 산물들을 모두 넣으면 폴더가 금방 지저분해진다. 작업 폴더와 논문 폴더를 엄격히 분리하자. 논문 폴더에는 "현재 논문에 들어갈 것"만 넣고, 작업 과정의 모든 것은 작업 폴더에 남겨두고 최종 결과물만 논문 폴더로 복사한다.
 
-**"final"이라는 단어 사용**: 파일 이름을 `Figure1_final.pdf`, `Figure1_final2.pdf`, `Figure1_final_final.pdf`로 짓는 것도 문제다. 항상 `_v1`, `_v2`, `_v3` 형식으로 버전을 관리하자. "final"이라는 단어는 절대 쓰지 말자. 논문에서 "final"은 없다. 항상 수정이 필요하니까.
+**"final"이라는 단어 사용**: 파일 이름을 `Figure1_final.pdf`, `Figure1_final2.pdf`, `Figure1_final_final.pdf`로 짓는 것도 문제다. 항상 앞서 설명한 버전 체계(Figure/Table은 `_v1`, `_v2`, 원고는 `_v1.0`, `_v1.1`)로 관리하자. "final"이라는 단어는 절대 쓰지 말자. 논문에서 "final"은 없다. 항상 수정이 필요하니까.
 
 ### 초기 준비 실수
 
