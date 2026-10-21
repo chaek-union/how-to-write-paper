@@ -1,4 +1,5 @@
 {
     "title": "나의 첫번째 논문 쓰기",
-    "root": "."
+    "root": ".",
+    "cover": "assets/front-cover.png"
 }
